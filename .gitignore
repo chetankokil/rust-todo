@@ -1,0 +1,46 @@
+target/
+
+# Build artifacts
+**/*.rs.bk
+**/*.rs.bk2
+
+# Dependencies
+Cargo.lock
+
+# Binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# Logs
+*.log
+
+# IDEs and editors
+.idea/
+.vscode/
+*.iml
+
+# System-specific files
+.DS_Store
+Thumbs.db
+
+# Temporary files
+*.tmp
+*.swp
+*.swo
+*.bak
+
+# Coverage files
+coverage/
+
+# Rust Language Server (RLS) files
+rls/
+
+# Clippy lints and hints
+.clippy/
+
+# Test results
+*.profraw
+*.profdata
